@@ -1,10 +1,11 @@
 # 🎮 Rock, Paper, Scissors Game ✂️📝
 
-This is a simple **Rock, Paper, Scissors** game implemented in Python. The game allows you to play against the computer by choosing one of the three options: rock, paper, or scissors. The game then determines the winner based on the classic rules:
+Rock, Paper, Scissors is a classic hand game played between two players. In this interactive text-based version, you compete against the computer. At each step, you make a choice between rock, paper, or scissors, and the computer does the same. Your goal is to win by selecting the option that beats the computer's choice based on the traditional rules:
 
-- ✊ Rock beats ✂️ Scissors
-- ✂️ Scissors beats 📄 Paper
-- 📄 Paper beats ✊ Rock
+✊ Rock beats ✂️ Scissors
+✂️ Scissors beats 📄 Paper
+📄 Paper beats ✊ Rock
+Make the right choices, and you could be the winner! Are you ready to play?
 
 ## ⚙️ How to Play
 
