@@ -22,10 +22,10 @@ Make the right choices, and you could be the winner! Are you ready to play?
 ## 💻 How to Run
 
 To run the game, simply follow these steps:
-
 1. Ensure that you have **Python** installed on your computer.
 2. Download or clone this repository to your local machine.
 3. Navigate to the directory where the `main.py` file is saved.
 4. Open a terminal or command prompt and type:
    ```bash
    python main.py
+   
