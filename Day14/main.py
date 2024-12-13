@@ -19,17 +19,21 @@ def check_answer(user_guess, a_followers, b_followers):
     else:
         return user_guess == "b"
 
+# print logo
 print(logo)
+
 score = 0
 game_should_continue =  True
+# Generate a random account from the game data
+account_b = random.choice(data)
 
+# Make the game repeatable
 while game_should_continue:
-    # Generate a random account from the game data
-    account_a = random.choice(data)
+    # Making account at position B becone the next account at position A.
+    account_a = account_b
     account_b = random.choice(data)
     if account_a == account_b:
         account_b = random.choice(data)
-        
         
     print(f"Compare A: {format_data(account_a)}.")
     print(vs)
@@ -37,6 +41,10 @@ while game_should_continue:
 
     # Ask user for a guess
     guess = input("Who has more followers? Type 'A' or 'B': ").lower()
+
+    # Clear the screen
+    print("\n" * 20)
+    print(logo)
 
     # Check if user is correct
     # - Get the follower count of each account
@@ -53,8 +61,3 @@ while game_should_continue:
         print(f"Sorry, that's wrong. Final score: {score}")
         game_should_continue = False
 
-
-
-# Make the game repeatable
-
-# Making account at position B becone the next account at position A.
